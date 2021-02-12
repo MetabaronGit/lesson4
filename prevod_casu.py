@@ -2,7 +2,7 @@
 time = input("Please enter your time: ")
 
 # Rozděl do listu vstup od uživatele do proměnné `hours` a `mins`.
-time_list = time.split(":")
+time_list = time.split(":",)
 hours = int(time_list[0])
 mins = time_list[1]
 
