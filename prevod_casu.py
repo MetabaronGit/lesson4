@@ -4,7 +4,7 @@ time = input("Please enter your time: ")
 # Rozděl do listu vstup od uživatele do proměnné `hours` a `mins`.
 time_list = time.split(":")
 hours = int(time_list[0])
-mins = int(time_list[1])
+mins = time_list[1]
 
 # Uprav proměnou `hours` tak, aby se do proměnné `adjusted_hours` místo
 # 24 hodinového formátu (např.: 17) uložil formát anglický (např.: 5).
